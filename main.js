@@ -3,9 +3,9 @@ var game=new Phaser.Game(400,490,Phaser.AUTO,"gameDiv");
 var mainState={
     preload:function(){
         game.stage.backgroundColor="#FFC";
-        game.load.image("bird","assets/smile.png");
-        game.load.image("pipe","assets/rock.png");
-        game.load.image("emptyHole","assets/empty.png");
+        game.load.image("bird","smile.png");
+        game.load.image("pipe","rock.png");
+        game.load.image("emptyHole","empty.png");
     },
     create:function(){
         game.physics.startSystem(Phaser.ARCADE);
